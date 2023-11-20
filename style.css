@@ -1,0 +1,41 @@
+#main-header{
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 5px;
+    font-style: italic;
+    margin-top: 1rem;
+    background-image: linear-gradient(to left, red,yellow,orange,violet, indigo, green, blue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.second-header{
+    text-align: center;
+}
+#second-header-text{
+    color: chocolate;
+    font-size: 2.5rem;
+    display: inline-flex;
+}
+.searchForTastyFood{
+    text-align: center;
+}
+.search_name{
+    display: inline-flex;
+    margin-right: 0.5rem;
+    font-size: larger;
+}
+.search_box{
+    inline-size: 20rem;
+    text-align: center;
+    height: 2rem;
+}
+#search-button{
+    height: 2rem;
+    width: 5rem;
+    background-color: black;
+    color: aliceblue;
+    flex-direction: row;
+    margin-left: 0.2rem;
+}
